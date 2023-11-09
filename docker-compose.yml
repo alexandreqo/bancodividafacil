@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    container_name: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5433:5432"
+  keycloak:
+    container_name: keycloak
+    volumes:
+      - type: bind 
+        source: ./standalone.xml
+        target: /opt/jboss/keycloak/standalone/configuration/standalone.xml
+    image: jboss/keycloak     
+    ports:
+      - "8180:8080"
+      - "9990:9990"  
+      - "465:465"
+    environment:
+      - DB_VENDOR=postgres
+      - DB_ADDR=postgres
+      - DB_DATABASE=keycloak
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin
+    depends_on:
+      - db
