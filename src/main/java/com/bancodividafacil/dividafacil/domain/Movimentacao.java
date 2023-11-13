@@ -1,4 +1,4 @@
-package com.bancodividafacil.dividafacil.domain.commom;
+package com.bancodividafacil.dividafacil.domain;
 
 import java.math.BigDecimal;
 
@@ -10,7 +10,7 @@ import lombok.Data;
 public class Movimentacao {
 	private Long id;
 	private String data;
-	private String tipo;
+	private TipoMovimentacao tipo;
 	private BigDecimal valor;
 
 	private Conta conta;

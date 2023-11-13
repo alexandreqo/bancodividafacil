@@ -5,7 +5,7 @@ import org.mapstruct.Mapper;
 
 import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.CorrentistaEntity;
 import com.bancodividafacil.dividafacil.config.CycleAvoidingMappingContext;
-import com.bancodividafacil.dividafacil.domain.commom.Correntista;
+import com.bancodividafacil.dividafacil.domain.Correntista;
 
 
 @Mapper(componentModel = "spring")

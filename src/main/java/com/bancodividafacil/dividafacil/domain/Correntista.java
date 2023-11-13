@@ -1,4 +1,4 @@
-package com.bancodividafacil.dividafacil.domain.commom;
+package com.bancodividafacil.dividafacil.domain;
 
 import java.util.Set;
 

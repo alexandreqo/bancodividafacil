@@ -6,8 +6,8 @@ import org.mapstruct.Mapper;
 import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.ContaEntity;
 import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.MovimentacaoEntity;
 import com.bancodividafacil.dividafacil.config.CycleAvoidingMappingContext;
-import com.bancodividafacil.dividafacil.domain.commom.Correntista;
-import com.bancodividafacil.dividafacil.domain.commom.Movimentacao;
+import com.bancodividafacil.dividafacil.domain.Correntista;
+import com.bancodividafacil.dividafacil.domain.Movimentacao;
 
 @Mapper(componentModel = "spring")
 public interface MovimentacaoMapper {

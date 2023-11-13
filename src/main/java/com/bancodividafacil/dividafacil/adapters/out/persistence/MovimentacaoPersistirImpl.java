@@ -11,7 +11,7 @@ import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.Movime
 import com.bancodividafacil.dividafacil.adapters.out.persistence.mappers.MovimentacaoMapper;
 import com.bancodividafacil.dividafacil.application.port.out.persistence.MovimentacaoPersistir;
 import com.bancodividafacil.dividafacil.config.CycleAvoidingMappingContext;
-import com.bancodividafacil.dividafacil.domain.commom.Movimentacao;
+import com.bancodividafacil.dividafacil.domain.Movimentacao;
 
 @Service
 @Transactional

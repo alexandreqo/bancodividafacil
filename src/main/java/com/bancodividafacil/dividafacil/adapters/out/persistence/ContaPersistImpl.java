@@ -11,7 +11,7 @@ import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.ContaE
 import com.bancodividafacil.dividafacil.adapters.out.persistence.mappers.ContaMapper;
 import com.bancodividafacil.dividafacil.application.port.out.persistence.ContaPersist;
 import com.bancodividafacil.dividafacil.config.CycleAvoidingMappingContext;
-import com.bancodividafacil.dividafacil.domain.commom.Conta;
+import com.bancodividafacil.dividafacil.domain.Conta;
 
 @Service
 @Transactional

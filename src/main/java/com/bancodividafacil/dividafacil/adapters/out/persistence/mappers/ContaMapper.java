@@ -5,7 +5,7 @@ import org.mapstruct.Mapper;
 
 import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.ContaEntity;
 import com.bancodividafacil.dividafacil.config.CycleAvoidingMappingContext;
-import com.bancodividafacil.dividafacil.domain.commom.Conta;
+import com.bancodividafacil.dividafacil.domain.Conta;
 
 @Mapper(componentModel = "spring")
 public interface ContaMapper {

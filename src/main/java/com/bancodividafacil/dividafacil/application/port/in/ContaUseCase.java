@@ -1,6 +1,6 @@
 package com.bancodividafacil.dividafacil.application.port.in;
 
-import com.bancodividafacil.dividafacil.domain.commom.Conta;
+import com.bancodividafacil.dividafacil.domain.Conta;
 
 public interface ContaUseCase {
 	Conta criarConta(Conta conta);

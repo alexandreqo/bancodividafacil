@@ -1,7 +1,7 @@
 package com.bancodividafacil.dividafacil.application.port.out.persistence;
 
 import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.MovimentacaoEntity;
-import com.bancodividafacil.dividafacil.domain.commom.Movimentacao;
+import com.bancodividafacil.dividafacil.domain.Movimentacao;
 
 public interface MovimentacaoPersistir {
 	MovimentacaoEntity criarMovimentacao(Movimentacao movimentacao);

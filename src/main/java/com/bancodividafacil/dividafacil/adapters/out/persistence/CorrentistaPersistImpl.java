@@ -11,7 +11,7 @@ import com.bancodividafacil.dividafacil.adapters.out.persistence.entities.Corren
 import com.bancodividafacil.dividafacil.adapters.out.persistence.mappers.CorrentistaMapper;
 import com.bancodividafacil.dividafacil.application.port.out.persistence.CorrentistaPersist;
 import com.bancodividafacil.dividafacil.config.CycleAvoidingMappingContext;
-import com.bancodividafacil.dividafacil.domain.commom.Correntista;
+import com.bancodividafacil.dividafacil.domain.Correntista;
 
 @Service
 @Transactional
